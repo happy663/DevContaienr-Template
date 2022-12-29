@@ -1,0 +1,20 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
+{
+  "name": "Ubuntu",
+  //dockerfileを指定する
+  "dockerFile": "./Dockerfile",
+  
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "GitHub.copilot",
+        "formulahendry.code-runner"
+      ]
+    }
+  },
+  "settings": {
+    "code-runner.runInTerminal": true
+  }
+}
